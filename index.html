@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Soulsborne Questionnaire</title>
+  </head>
+  <body>
+    <div class="questionnaire">
+      <h1 id="title">Soulsborne Questionnaire</h1>
+      <p id="description">Enter some information about your favorite playthrough in the Soulsborne series!</p>
+      <form id="survey-form">
+        <div><label for="name" id="name-label">Character Name : <input id="name" name="name" type="text" placeholder="Siegfried" required /></label></div>
+        <div><label for="email" id="email-label">Character Email : <input id="email" name="email" type="email" placeholder="sfried@email.com" required /></label></div>
+        <div><label for="number" id="number-label">Playtime (hours) : <input id="number" name="number" type="number" pattern="(/^[0-9]+$/)" min="18" max="65" placeholder="25"/></label></div>
+        <select id="dropdown" name="dropdown">
+          <option value="">(Select Your Favorite Game)</option>
+          <option value="VG_1">Dark Souls 1</option>
+          <option value="VG_2">Dark Souls 2</option>
+          <option value="VG_3">Dark Souls 3</option>
+          <option value="VG_4">Bloodborne</option>
+        </select>
+        <fieldset>
+          <legend>What was your playstyle?</legend>
+          <label for="playstyle_1"><input id="playstyle_1" name="playstyle" type="radio" value="Two handed" checked />Two handed</label>
+          <label for="playstyle_2"><input id="playstyle_2" name="playstyle" type="radio" value="One handed w/ shield" />One handed w/ shield</label>
+          <label for="playstyle_3"><input id="playsyle_3" name="playstyle" type="radio" value="Magic" />Magic</label>
+        </fieldset>
+        <fieldset>
+          <legend>Which Souls games have you played?</legend>
+          <label for="ds1_check"><input id="ds1_check" name="ds1_played" value="played" type="checkbox" \> Dark Souls 1</label>
+          <label for="ds2_check"><input id="ds2_check" name="ds2_played" value="played" type="checkbox" \> Dark Souls 2</label>
+          <label for="ds3_check"><input id="ds3_check" name="ds3_played" value="played" type="checkbox" \> Dark Souls 3</label><label for="bb_check"><input id="bb_check" name="bb_played" value="played" type="checkbox" \> Bloodborne</label>
+        </fieldset>
+        <label for="fav_moment">Tell us about a favorite moment!
+          <textarea id="fav_moment" name="fav_moment" placeholder="My favorite moment was..." rows="3" cols="45"></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+      <hr class="final_line"> 
+      <footer>
+        <p class="footer_text">Certification Project for the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-survey-form-project" target="_blank">Responsive Web Design Course</a> from <a href="https://www.freecodecamp.org/learn/" target="_blank">FreeCodeCamp</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

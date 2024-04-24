@@ -1,0 +1,79 @@
+body {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/35271885-b64b-49da-b43d-e9aa8fa4d471/df5230p-bd09010a-a7b9-4ce7-a8ea-c6a87f2ed931.jpg/v1/fill/w_1190,h_671,q_70,strp/soulsborne_wallpaper___wip_by_thetruemask_df5230p-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIyIiwicGF0aCI6IlwvZlwvMzUyNzE4ODUtYjY0Yi00OWRhLWI0M2QtZTlhYThmYTRkNDcxXC9kZjUyMzBwLWJkMDkwMTBhLWE3YjktNGNlNy1hOGVhLWM2YTg3ZjJlZDkzMS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.8yE_UbBqKSmmwoKx2AyIn4HgqSj6gnlL5o7cqh3aDf8);
+  background-size: cover;
+  font-family: cursive;
+  font-size: 1.5em;
+}
+
+.questionnaire {
+  background: white;
+  opacity: 80%;
+  max-width: 75%;
+  width: 50%; 
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+hr {
+  height: .25em;
+  background-color: black; 
+}
+
+footer {
+  font-size: .45em;
+  font-family: system-ui;
+}
+
+
+h1, footer, p {
+  text-align: center;
+}
+
+.footer_text {
+  margin-bottom: 0;
+}
+
+#description {
+  margin-top: 0;
+}
+
+#dropdown {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+}
+
+#fav_moment {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2em;
+  font-size: .75em;
+  background-color: black;
+  opacity: 80%;
+  color: white;
+}
+
+a, a:visited {
+  color: black;
+}
+
+a:hover, a:active {
+  color: #ee5636;
+}
